@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
 import Error from './Error.jsx'
 import Home from './Home.jsx'
+import Login from './componentes/Login/Login.jsx'
 import './css/index.css'
 
  /* criando a função createBrowser */
@@ -18,7 +19,8 @@ import './css/index.css'
     errorElement: <Error />,
     /* chamando elementos filhos */
     children:[
-      {path: '/', element:<Home/>},
+      {path: '/', element:<Login/>},
+      {path: '/Home', element:<Home/>}
     ]
   }
 ])
