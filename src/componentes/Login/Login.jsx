@@ -18,6 +18,7 @@ export default function Login(){
         <>
             <Header/>
             <section className='login_page'>
+                <div className='bg_img'></div>
                 <div className='form_container'>
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">

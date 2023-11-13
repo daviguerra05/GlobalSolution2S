@@ -3,7 +3,8 @@ export default function Header(){
     return(
         <>
             <header>
-                cabe
+                <div>LOGO</div>
+                <div>Other</div>
             </header>
         </>
     )
