@@ -1,5 +1,40 @@
 #home {
   width: 100%;
+  height: auto;
+}
+
+#home_container {
+  width: 100%;
   height: 100vh;
   background: #1d1d1b;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #FFFCF9;
+}
+
+.vantagens {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 5%;
+  background: #FFFCF9;
+}
+
+#cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.card_vt:hover {
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.185);
 }/*# sourceMappingURL=home.css.map */

@@ -1,8 +1,9 @@
+import './footer.css'
 export default function Footer(){
     return(
         <>
             <footer>
-                aqui
+                teste
             </footer>
         </>
     )
