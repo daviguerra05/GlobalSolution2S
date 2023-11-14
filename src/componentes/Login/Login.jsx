@@ -25,11 +25,11 @@ export default function Login(){
                     <Form onSubmit={handleSubmit(onSubmit)}>
 
                         <FloatingLabel className="mb-3" label="Nome de usuário" controlId="floatingInputl">
-                            <Form.Control className='form_control' type="text" placeholder='Usuario' required/>
+                            <Form.Control className='form_control' type="text" placeholder='Nome de usuário' required/>
                         </FloatingLabel>
 
                         <FloatingLabel className="mb-3" label="Endereço de Email" controlId="floatingInputl">
-                            <Form.Control className='form_control' type="email" placeholder='Email' required/>
+                            <Form.Control className='form_control' type="email" placeholder='Endereço de Email' required/>
                         </FloatingLabel>
 
                         <FloatingLabel className="mb-3" label="Senha" controlId="floatingInputl">
