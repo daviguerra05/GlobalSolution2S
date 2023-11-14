@@ -1,12 +1,6 @@
-#home {
-  width: 100%;
-  height: auto;
-}
-
 #home_container {
   width: 100%;
-  height: 100vh;
-  background: #1d1d1b;
+  height: auto;
 }
 
 .main {
@@ -27,6 +21,19 @@
   background: #FFFCF9;
 }
 
+.vantagens div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.vantagens h2 {
+  align-self: center;
+  width: 70%;
+  height: 1px;
+  background: black;
+}
+
 #cards {
   width: 100%;
   display: flex;
@@ -35,6 +42,6 @@
   gap: 5rem;
 }
 
-.card_vt:hover {
-  box-shadow: 0 0 30px rgba(255, 0, 0, 0.185);
+.card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.185);
 }/*# sourceMappingURL=home.css.map */

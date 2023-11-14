@@ -5,7 +5,6 @@ import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './login.css'
-import Header from '../Header/Header.jsx'
 
 export default function Login(){
     const {handleSubmit} = useForm();
@@ -17,7 +16,6 @@ export default function Login(){
 
     return(
         <>
-            <Header/>
             <section className='login_page'>
                 <div className='bg_img'></div>
 
