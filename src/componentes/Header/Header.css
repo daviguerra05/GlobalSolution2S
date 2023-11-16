@@ -1,12 +1,13 @@
 header {
+  width: 100%;
+  height: 10vh;
   position: fixed;
   top: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
-  height: 10vh;
+  gap: 1rem;
   margin-bottom: 10%;
   border-bottom: 2px solid rgba(71, 71, 71, 0.2862745098);
   background: #FFFCF9;
@@ -20,10 +21,21 @@ header {
   width: 300px;
 }
 
-header div:nth-child(2) {
+#left_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#left_header span {
   font-size: 17px;
 }
 
-header div:nth-child(2):hover {
+#left_header span:hover {
+  color: #e50012;
+}
+
+#nav-dropdown-dark-example:hover {
   color: #e50012;
 }/*# sourceMappingURL=Header.css.map */
