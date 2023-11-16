@@ -13,7 +13,7 @@ export default function Footer(){
             <div className='ft_'>
                 <h4>Contatos</h4>
                 <a href="mailto:davi@passanha.com.br">davi@passanha.com.br</a>
-                <a href="mailto:rui@gmail.com">rui@gmail.com</a>
+                <a href="mailto:ruiamorim20046@gmail.com">ruiamorim20046@gmail.com</a>
             </div>
         </footer>
         </>
