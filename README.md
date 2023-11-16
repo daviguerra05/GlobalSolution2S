@@ -6,7 +6,7 @@ Website realizado para projeto Health Buddy
 Global Solution - 2ºsemestre - 2023
 
 
-## Authors
+## Autores
 
 - [Davi Passanha de Sousa Guerra - RM551605 - 1ESPW](https://www.github.com/daviguerra05)
 - [Rui Amorim Siqueira - RM98436 - 1ESPW](https://github.com/ruiasiqueira)
@@ -25,7 +25,7 @@ Iniciar a aplicação:
 
 ## Usuários e Senhas
 
-Lista de Usuários e senhas para validação de login.
+Lista de usuários e senhas para validação de login.
 
 ```javascript
 Username: Davi
