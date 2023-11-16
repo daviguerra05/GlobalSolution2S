@@ -25,7 +25,7 @@ function MyVerticallyCenteredModal(props) {
             <br/>
             <a href='mailto:davi@passanha.com.br' style={{textDecoration:'none'}}>davi@passanha.com.br</a>
             <br />
-            <a href='mailto:rui@gmail.com' style={{textDecoration:'none'}}>rui@gmail.com</a>
+            <a href='mailto:ruiamorim20046@gmail.com' style={{textDecoration:'none'}}>ruiamorim20046@gmail.com</a>
           </p>
         </Modal.Body>
         <Modal.Footer>
