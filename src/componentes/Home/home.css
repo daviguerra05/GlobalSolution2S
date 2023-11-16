@@ -35,6 +35,16 @@
 
 .main_left_container div:nth-child(2) {
   display: flex;
+  gap: 1rem;
+}
+
+.main_left_container div:nth-child(2) div:nth-child(1) {
+  width: 100%;
+}
+
+#bt_hm {
+  width: auto;
+  align-self: flex-end;
 }
 
 .main_aside {

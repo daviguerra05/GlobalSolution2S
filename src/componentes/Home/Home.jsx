@@ -23,9 +23,12 @@ export default function Home(){
                                 Ut gravida porta ex a lobortis
                             </div>
                         </div>
-                            <Button variant="primary" className='bt_lg'>Mais informações</Button>
 
+                        <div id ='bt_hm'>
+                            <Button variant="primary" className='bt_lg' style={{height:'6vh'}}>Mais informações</Button>
+                        </div>
                     </div>
+
                     <aside className='main_aside'>
                         <div>
                             <h1>
