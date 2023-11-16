@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './home.css'
- 
+  
 export default function Home(){
     return(
         <div id="home_container">
@@ -82,7 +82,7 @@ export default function Home(){
                     </div>
 
                     <div id='cards'>
-                        <Card className='card_vt' style={{ width: '30rem' }}>
+                        <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem' }}>
                             <Card.Img variant="top" src="src\assets\vt1.jpg"/>
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -94,7 +94,7 @@ export default function Home(){
                             </Card.Body>
                         </Card>
 
-                        <Card className='card_vt' style={{ width: '30rem' }}>
+                        <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem'  }}>
                             <Card.Img variant="top" src="src\assets\vt2.jpg"/>
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -106,7 +106,7 @@ export default function Home(){
                             </Card.Body>
                         </Card>
 
-                        <Card className='card_vt' style={{ width: '30rem' }}>
+                        <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem'  }}>
                             <Card.Img variant="top" src="src\assets\vt1.jpg"/>
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>

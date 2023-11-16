@@ -112,7 +112,38 @@
     gap: 5rem;
 }
 
-
 .card:hover{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.185);
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        padding: 10% 6% 20% 6%;
+    }
+    .main_left_container{
+        width: 100%;
+    }
+    .main_img{
+        height: 30%;
+    }
+    .main_aside{
+        width: 100%;
+    }
+    
+    // ------------------
+    .vantagens{
+        height: auto;
+        padding: 15%;
+    }
+    #cards{
+        flex-direction: column;
+    }
+    .card_vt{
+        width: 1rem;
+    }
 }
