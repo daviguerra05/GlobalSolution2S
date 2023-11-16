@@ -1,11 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './home.css'
  
 export default function Home(){
     return(
         <div id="home_container">
+            <Header/>
             <div>
                 <div className="main">
                     <div className='main_left_container'>
