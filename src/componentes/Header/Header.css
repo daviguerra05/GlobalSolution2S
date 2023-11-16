@@ -38,4 +38,13 @@ header {
 
 #nav-dropdown-dark-example:hover {
   color: #e50012;
+}
+
+@media screen and (max-width: 600px) {
+  #logo img {
+    width: 200px;
+  }
+  #left_header span {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */

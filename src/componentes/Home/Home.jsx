@@ -16,13 +16,12 @@ export default function Home(){
                         <div>
                             <div>
                                 <h1>Health Buddy</h1>  
-                                <p>cuidando de você como um amigo</p>  
+                                <p>Cuidando de você como um amigo</p>  
                             </div>
                             <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Proin placerat tincidunt volutpat. 
-                                Curabitur quis ipsum in velit placerat semper sit amet vel tellus. 
-                                Ut gravida porta ex a lobortis
+                                Nosso projeto visa otimizar a jornada do paciente na saúde, 
+                                utilizando inteligência artificial para triagem remota, 
+                                agilizando atendimento hospitalar e priorizando casos emergenciais com eficiência.
                             </div>
                         </div>
 

@@ -19,7 +19,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   color: #FFFCF9;
 }
 
@@ -35,7 +35,13 @@
 
 .main_left_container div:nth-child(2) {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
+}
+
+.main_left_container div:nth-child(2) p {
+  color: #e50012;
 }
 
 .main_left_container div:nth-child(2) div:nth-child(1) {
@@ -119,17 +125,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0rem;
+    gap: 5rem;
     padding: 10% 6% 20% 6%;
   }
   .main_left_container {
     width: 100%;
+    height: auto;
   }
   .main_img {
-    height: 30%;
+    height: 300px;
   }
   .main_aside {
     width: 100%;
+  }
+  .main_left_container div:nth-child(2) {
+    flex-direction: column;
   }
   .vantagens {
     height: auto;
