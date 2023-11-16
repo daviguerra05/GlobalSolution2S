@@ -12,8 +12,8 @@ export default function Footer(){
             </div>
             <div className='ft_'>
                 <h4>Contatos</h4>
-                <a href="">Davi Guerra</a>
-                <a href="">Rui Amorim</a>
+                <a href="mailto:davi@passanha.com.br">davi@passanha.com.br</a>
+                <a href="mailto:rui@gmail.com">rui@gmail.com</a>
             </div>
         </footer>
         </>

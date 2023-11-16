@@ -117,10 +117,11 @@ export default function Home(){
                         <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem' }}>
                             <Card.Img variant="top" src="src\assets\vt1.jpg"/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Otimização de tempo</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                    O projeto oferece vantagens significativas na otimização do tempo, 
+                                    agilizando a jornada do paciente por meio de triagem remota, 
+                                    reduzindo espera e garantindo atendimento hospitalar eficiente.
                                 </Card.Text>
                                 <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
@@ -129,22 +130,26 @@ export default function Home(){
                         <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem'  }}>
                             <Card.Img variant="top" src="src\assets\vt2.jpg"/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Acessibilidade</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                O projeto, ao priorizar a acessibilidade, 
+                                promove triagem remota, eliminando barreiras físicas, 
+                                assegurando atendimento hospitalar inclusivo e eficaz, 
+                                otimizando a experiência do paciente.
                                 </Card.Text>
                                 <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
                         </Card>
 
                         <Card className='card_vt' style={{ maxWidth: '30rem', minWidth: '20rem'  }}>
-                            <Card.Img variant="top" src="src\assets\vt1.jpg"/>
+                            <Card.Img variant="top" src="src\assets\vt3.jpg"/>
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Praticidade</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                    A praticidade é destacada no projeto, 
+                                    que oferece triagem remota, simplificando processos. 
+                                    Reduzindo burocracias, garante atendimento hospitalar 
+                                    eficaz e conveniente, elevando a experiência do paciente.
                                 </Card.Text>
                                 <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
