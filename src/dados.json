@@ -1,0 +1,12 @@
+{
+    "1":{
+        "nome":"Davi",
+        "email":"davi@passanha.com.br",
+        "senha":"12345"
+    },
+    "2":{
+        "nome":"Rui",
+        "email":"rui@teste.com",
+        "senha":"senha"
+    }
+}

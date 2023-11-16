@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -13,8 +13,38 @@ export default function Login(){
     const [password, setPassword] = useState('');
     const [username, setUsername] = useState('');
 
-    const  handleSubmit = (e) => {
+    const [dados, setDados] = useState(null);
+    useEffect(() => {
+        // Função para ler o arquivo JSON
+        const lerArquivoJSON = async () => {
+        try {
+            const resposta = await fetch('./src/dados.json');
+            const dadosJSON = await resposta.json();
+            setDados(dadosJSON);
+        } catch (erro) {
+            console.error('Erro ao ler o arquivo JSON:', erro);
+        }
+        };
+
+        lerArquivoJSON();
+    }, []);
+
+
+    const handleSubmit = (e) => {
         e.preventDefault();
+       
+        for (var id in dados){
+            if (!Object.values(dados[id]).includes(email)) {
+                alert('Usuário criado com sucesso')
+                break
+            }
+            if (username == dados[id].nome && password == dados[id].senha && email == dados[id].email){
+                break
+            }else{
+                alert('Credenciais erradas...')
+                return false
+            }
+        }
 
         sessionStorage.setItem('email', email);
         sessionStorage.setItem('password', password);
