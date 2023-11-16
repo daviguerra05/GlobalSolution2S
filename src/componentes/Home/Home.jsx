@@ -1,10 +1,43 @@
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Modal from 'react-bootstrap/Modal';
 import './home.css'
   
+function MyVerticallyCenteredModal(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Mais Informações
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+            Para mais informações nos mande um email:
+            <br/>
+            <a href='mailto:davi@passanha.com.br' style={{textDecoration:'none'}}>davi@passanha.com.br</a>
+            <br />
+            <a href='mailto:rui@gmail.com' style={{textDecoration:'none'}}>rui@gmail.com</a>
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide} style={{background:'#e50012',border:'none'}}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+}
+
 export default function Home(){
+    const [modalShow, setModalShow] = React.useState(false);
+
     return(
         <div id="home_container">
             <Header/>
@@ -26,7 +59,7 @@ export default function Home(){
                         </div>
 
                         <div id ='bt_hm'>
-                            <Button variant="primary" className='bt_lg' style={{height:'6vh'}}>Mais informações</Button>
+                            <Button variant="primary" className='bt_lg' style={{height:'6vh'}} onClick={() => setModalShow(true)}>Mais informações</Button>
                         </div>
                     </div>
 
@@ -89,7 +122,7 @@ export default function Home(){
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                                 </Card.Text>
-                                <Button variant="primary" className='bt_lg'>Go somewhere</Button>
+                                <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
                         </Card>
 
@@ -101,7 +134,7 @@ export default function Home(){
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                                 </Card.Text>
-                                <Button variant="primary" className='bt_lg'>Go somewhere</Button>
+                                <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
                         </Card>
 
@@ -113,13 +146,17 @@ export default function Home(){
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                                 </Card.Text>
-                                <Button variant="primary" className='bt_lg'>Go somewhere</Button>
+                                <Button variant="primary" className='bt_lg' onClick={() => setModalShow(true)}>Mais informações</Button>
                             </Card.Body>
                         </Card>
                     </div>
                 </div>
             </div>
             <Footer/>
+            <MyVerticallyCenteredModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </div>
     )
 }
