@@ -3,8 +3,53 @@
 footer{
     width: 100%;
     height: 20vh;
+    display: flex;
+    justify-content: space-between;
     background: $black-color;
     position: static;
     bottom: 0;
     left: 0;
+    color: $white-color;
+} 
+
+footer div{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ft_{
+    flex-direction: column;
+}
+
+.ft_ a{
+    width: auto;
+    text-decoration: none;
+    color: grey;
+}
+
+.ft_ a:hover{
+    color: $darkred-color;
+}
+
+#ft_logo{
+    width: 50%;
+    height: auto;
+    background-image: url('/src/assets/grey.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width:600px) {
+    footer{
+        gap: 2rem;
+        padding: 0 0 5% 0;
+        height: auto;
+        flex-direction: column;
+    }
+    #ft_logo{
+        display: none;
+    }
 }
