@@ -14,12 +14,13 @@ export default function Login(){
     const [username, setUsername] = useState('');
 
     const [dados, setDados] = useState(null);
+    let dadosJSON
     useEffect(() => {
         // Função para ler o arquivo JSON
         const lerArquivoJSON = async () => {
         try {
             const resposta = await fetch('./src/dados.json');
-            const dadosJSON = await resposta.json();
+            dadosJSON = await resposta.json();
             setDados(dadosJSON);
         } catch (erro) {
             console.error('Erro ao ler o arquivo JSON:', erro);
@@ -36,6 +37,7 @@ export default function Login(){
         for (var id in dados){
             if (!Object.values(dados[id]).includes(email)) {
                 alert('Usuário criado com sucesso')
+                dadosJSON = JSON.stringify({"3":{"nome":username,"emial":email,"senha":password}});
                 break
             }
             if (username == dados[id].nome && password == dados[id].senha && email == dados[id].email){
