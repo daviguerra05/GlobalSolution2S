@@ -74,8 +74,7 @@ export default function Home(){
                                 Uma inteligência artificial na qual facilitará a jornada do paciente, 
                                 pois ele terá a possibilidade de iniciar sua triagem a caminho do hospital, 
                                 caso o paciente não tenha integrado seus health care devices ao sistema, 
-                                chegando lá será necessário apenas medir a pressão e temperatura, 
-                                um procedimento que será realizado no momento que o paciente chegar ao hospital
+                                chegando lá será necessário apenas medir a pressão e temperatura.
                             </p>
                         </div>
 
@@ -99,10 +98,8 @@ export default function Home(){
                             </h1>
                             <h2></h2>
                             <p>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Nossa solução será integrada no sistema dos hospitais parceiros.
+                                Disponibilizando acesso à triagem remota aos pacientes desses hospitais.
                             </p>
                         </div>
                     </aside>
